@@ -34,6 +34,9 @@ namespace twozerofoureight
             }
             rand = new Random();
             board = Random(board);
+            int sum = 0;
+           
+            
             NotifyAll();
         }
 
@@ -103,6 +106,7 @@ namespace twozerofoureight
             }
             board = Random(board);
             NotifyAll();
+
         }
 
         public void PerformUp()
@@ -154,6 +158,7 @@ namespace twozerofoureight
                 }
             }
             board = Random(board);
+           
             NotifyAll();
         }
 
@@ -208,6 +213,7 @@ namespace twozerofoureight
                 }
             }
             board = Random(board);
+            
             NotifyAll();
         }
 
@@ -258,6 +264,7 @@ namespace twozerofoureight
                 }
             }
             board = Random(board);
+          
             NotifyAll();
         }
     }
