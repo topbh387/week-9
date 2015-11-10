@@ -36,6 +36,7 @@
             this.lblScore.AutoSize = true;
             this.lblScore.Location = new System.Drawing.Point(132, 119);
             this.lblScore.Name = "lblScore";
+            this.lblScore.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lblScore.Size = new System.Drawing.Size(13, 13);
             this.lblScore.TabIndex = 0;
             this.lblScore.Text = "0";
@@ -49,6 +50,7 @@
             this.Controls.Add(this.lblScore);
             this.Name = "TwoZeroFourEightScoreView";
             this.Text = "TwoZeroFourEightScoreView";
+            this.Load += new System.EventHandler(this.TwoZeroFourEightScoreView_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
